@@ -22,7 +22,7 @@ body{
 /* ------------------------------------------ */
 
 /* paragraf config start */
-p{
+#first-p{
  position: absolute;
  top: 170px;
 }
@@ -44,7 +44,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 12px;
+  margin: 10px;
 }
 
 /* position search bar config */
@@ -67,7 +67,7 @@ p{
         text-align: left;   
         flex-direction: column;
         align-items: center;
-        margin: 12px;
+        margin: 1px;
              
       }
 /* inside search bar config */
@@ -102,10 +102,37 @@ p{
   left: 50%;
   transform: translate(-50% ,-50%);
   color: rgb(247, 245, 244);
-  padding-bottom: 5%;
+  padding-bottom: -5%;
  
 
 }
 /* button config postion  */
 
+
+.boxi {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  text-align: center;
+  padding-left: 12%;
+  
+}
+
+.bx-green{
+
+  background-color: green;
+}
+
+.bx-red {
+
+  background-color: red;
+}
+
+
+.bx-yellow{
+
+  background-color: yellow;
+}
 
